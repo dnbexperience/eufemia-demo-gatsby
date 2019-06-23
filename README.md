@@ -1,7 +1,6 @@
 # Eufemia Demos
 
-TODO: Update codesandbox url
-👉 [Demo](https://codesandbox.io/)
+👉 [View Demo](https://codesandbox.io/embed/github/dnbexperience/eufemia-demo/tree/master/)
 
 This is demo app to showcase how to use Eufemia styles and components.
 
