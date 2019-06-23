@@ -1,0 +1,42 @@
+{
+  "name": "eufemia-demo",
+  "description": "Eufemia Demos",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dnbexperience/eufemia-demo.git"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop --port=8001",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.12",
+    "classnames": "^2.2.6",
+    "css-vars-ponyfill": "^2.0.2",
+    "dnb-ui-lib": "^3.28.0",
+    "gatsby": "^2.10.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "gatsby-plugin-react-helmet": "^3.1.0",
+    "gatsby-plugin-emotion": "^4.1.0",
+    "gatsby-plugin-sass": "^2.1.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2"
+  }
+}
