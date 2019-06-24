@@ -43,7 +43,7 @@ const Spacing = styled.div(SpacingHelper)
 const SectionWithSpacing = styled(Section)(SpacingHelper)
 
 // Visual helper to limit the width inside of our layout
-const Limit = styled.div`
+const WidthLimit = styled.div`
   max-width: 42rem;
 `
 
@@ -63,13 +63,13 @@ const HeaderTitleWrapper = styled.div`
   margin-top: 3rem;
 `
 
-// ´Sections combined with spacing possibility
+// Section's combined, but now with spacing possibility
 const SectionCustom = styled(SectionWithSpacing)`
   /* change from 3rem to 1.5rem */
   padding-bottom: 1.5rem;
 `
 
-// The bottom section / divider
+// The bottom section / divider has some extra CSS
 const DividerSection = styled(SectionWithSpacing)`
   display: flex;
   justify-content: space-between;
@@ -172,7 +172,7 @@ const FormDemo = () => {
           }, 1e3)
         }}
       >
-        <Limit>
+        <WidthLimit>
           <SectionCustom top="1.5" spacing="large" style="white">
             <H2>What has happened?</H2>
             <Ingress>
@@ -308,7 +308,7 @@ const FormDemo = () => {
               />
             </Attachment.Add>
           </SectionCustom>
-        </Limit>
+        </WidthLimit>
 
         <SectionCustom top="3.5" spacing="medium">
           <Switch
