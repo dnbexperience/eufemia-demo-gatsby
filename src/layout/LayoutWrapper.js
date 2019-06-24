@@ -18,12 +18,15 @@ const Wrapper = styled.div`
   justify-content: center;
 `
 const WrapperInner = styled.div`
+  /* for large screesn */
+  width: 84vw; /* apr. the same as 60rem */
   max-width: 60rem;
   padding: 0 1rem;
 
-  /* for large screesn, always use 60rem */
-  @media (min-width: 40em) {
-    width: 60rem;
+  /* for small screesn */
+  @media (max-width: 40em) {
+    width: 95vw;
+    padding: 0;
   }
 `
 const Main = styled.main``
