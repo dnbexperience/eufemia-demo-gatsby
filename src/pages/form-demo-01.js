@@ -45,6 +45,9 @@ const SectionWithSpacing = styled(Section)(SpacingHelper)
 // Visual helper to limit the width inside of our layout
 const WidthLimit = styled.div`
   max-width: 42rem;
+  .dnb-input {
+    max-width: 10rem;
+  }
 `
 
 // set the header hight

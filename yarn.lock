@@ -3277,10 +3277,10 @@ diffie-hellman@^5.0.0:
     miller-rabin "^4.0.0"
     randombytes "^2.0.0"
 
-dnb-ui-lib@^3.28.0:
-  version "3.28.0"
-  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-3.28.0.tgz#79760ecd98d728eba0dcd73a208bcf719a9a2666"
-  integrity sha512-A1gNpZPCZxbviCgHIbL1cu3wADkTaC32EfiAZdjtQd5xHQ8HuqtTRtiJ6X4V0sz4fm4wQgjN08qWBOvpO2ZpFQ==
+dnb-ui-lib@^3.29.0:
+  version "3.29.0"
+  resolved "https://registry.yarnpkg.com/dnb-ui-lib/-/dnb-ui-lib-3.29.0.tgz#ca3edec2db3dce1bc81663a11791366a76e8d89a"
+  integrity sha512-qxeG8QXI4fRPFiW0m1lqgfP78i4c+9wDrxuDLtp0fYixLvpipuYonZmuow6VbjIa7al6/Roe9gDUk4D99gpV2g==
   dependencies:
     "@babel/runtime" "^7.4.5"
     body-scroll-lock "^2.6.1"
