@@ -76,8 +76,6 @@ const Attachment = styled(Space)`
   .dnb-button {
     margin-left: 1.5rem;
   }
-}
-
 `
 Attachment.FileRow = styled.span`
   .dnb-icon {
