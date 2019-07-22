@@ -20,7 +20,7 @@
     "@emotion/styled": "^10.0.14",
     "classnames": "^2.2.6",
     "css-vars-ponyfill": "^2.0.2",
-    "dnb-ui-lib": "^3.30.0",
+    "dnb-ui-lib": "^4.1.0",
     "gatsby": "^2.10.5",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
