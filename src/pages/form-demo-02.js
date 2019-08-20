@@ -84,7 +84,7 @@ const Attachment = styled(Spacing)`
   margin-top: 0.5rem;
 
   .dnb-button {
-    margin-left: 1.5rem;
+    margin-left: 1.75rem;
   }
 `
 Attachment.FileRow = styled.span`
@@ -94,7 +94,7 @@ Attachment.FileRow = styled.span`
 `
 Attachment.Add = styled(Spacing)`
   .dnb-button {
-    margin-left: -1rem;
+    margin-left: -0.5rem;
   }
 `
 
@@ -138,7 +138,7 @@ const FormDemo = () => {
         <title>Eufemia - form demo 1</title>
       </Head>
 
-      <HeaderSection style="mint-green">
+      <HeaderSection style_type="mint-green">
         <HeaderTitleWrapper>
           <H1 style_type="small">Card complaint</H1>
         </HeaderTitleWrapper>
@@ -177,7 +177,7 @@ const FormDemo = () => {
         }}
       >
         <WidthLimit>
-          <Section top="medium" spacing="x-large" style="white">
+          <Section top="medium" spacing="x-large" style_type="white">
             <H2>What has happened?</H2>
             <Ingress>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -282,7 +282,7 @@ const FormDemo = () => {
             </Spacing>
           </Section>
 
-          <Section spacing="x-large" style="white">
+          <Section spacing="x-large" style_type="white">
             <H2>Attachment</H2>
 
             <Ingress bottom="xs">
@@ -339,7 +339,7 @@ const FormDemo = () => {
           />
         </Section>
 
-        <DividerSection spacing="small" style="divider">
+        <DividerSection spacing="small" style_type="divider">
           <Button
             text="Next"
             icon="chevron_right"
