@@ -1,6 +1,7 @@
 # Eufemia Demos
 
-👉 [Code & Live Demo](https://codesandbox.io/embed/github/dnbexperience/eufemia-demo/tree/master/)
+👉 [Live Demo](https://eufemia.dnb.no/uilib/demos/eufemia-demo/form-demo-01/)
+🤘 [CodeSandbox](https://codesandbox.io/embed/github/dnbexperience/eufemia-demo/tree/master/)
 
 This is demo app to showcase how to use Eufemia styles and components.
 
