@@ -1,7 +1,7 @@
 {
   "name": "eufemia-demo",
   "private": true,
-  "description": "Eufemia Demos",
+  "description": "Eufemia Demos using GatsbyJS",
   "license": "SEE LICENSE IN LICENSE FILE",
   "author": "DNB Team & Tobias Høegh",
   "repository": {
@@ -18,12 +18,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "@emotion/core": "^10.0.16",
-    "@emotion/styled": "^10.0.15",
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
     "classnames": "^2.2.6",
     "css-vars-ponyfill": "^2.1.1",
-    "dnb-ui-lib": "^4.12.0",
-    "gatsby": "^2.15.1",
+    "dnb-ui-lib": "^4.14.2",
+    "gatsby": "^2.15.9",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -31,13 +31,14 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint": "^5.16.0",
+    "eslint": "^6.3.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "gatsby-plugin-emotion": "^4.1.4",
-    "gatsby-plugin-react-helmet": "^3.1.5",
-    "gatsby-plugin-sass": "^2.1.12",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "gatsby-plugin-emotion": "^4.1.5",
+    "gatsby-plugin-react-helmet": "^3.1.6",
+    "gatsby-plugin-sass": "^2.1.13",
     "node-sass": "^4.12.0",
     "prettier": "^1.18.2"
   }

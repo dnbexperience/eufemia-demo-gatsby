@@ -13,5 +13,5 @@ This setup is using React within [GatsbyJS](https://www.gatsbyjs.org) so that th
 
 ## How to run this demo App
 
-1. Make sure You have installed the dependencies `yarn install`.
-1. Now You can run `yarn start` inside this demo App.
+1. Make sure You have installed the dependencies `npm install`.
+1. Now You can run `npm start` inside this demo App.

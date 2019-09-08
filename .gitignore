@@ -12,7 +12,7 @@
 /dist
 
 # misc
-package-lock.json
+yarn.lock
 completions.json
 *.emotion.css
 .DS_Store
