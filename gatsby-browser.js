@@ -6,7 +6,7 @@
 
 import React from 'react'
 import PropTypes from 'prop-types'
-import Provider from 'dnb-ui-lib/shared/Provider'
+import EufemiaProvider from 'dnb-ui-lib/shared/Provider'
 
 // import 'dnb-ui-lib/src/style'
 import 'dnb-ui-lib/style/basis'
@@ -18,7 +18,7 @@ import 'dnb-ui-lib/style/themes/ui'
 
 // Optional, use a Provider
 export const wrapRootElement = ({ element }) => {
-  return <Provider formRow={{}}>{element}</Provider>
+  return <EufemiaProvider formRow={{}}>{element}</EufemiaProvider>
 }
 wrapRootElement.propTypes = {
   element: PropTypes.node.isRequired
