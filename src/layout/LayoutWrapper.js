@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 `
 const WrapperInner = styled.div`
   /* for large screesn */
-  width: 84vw; /* apr. the same as 60rem */
+  width: 100%; /* 84vw ~ 60rem */
   max-width: 60rem;
   padding: 0 1rem;
 

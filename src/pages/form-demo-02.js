@@ -293,7 +293,8 @@ const FormDemo = () => {
 
             <Attachment>
               <Attachment.FileRow>
-                <Icon icon={AttachmentIcon} /> <span>filname_01.jpg</span>
+                <Icon icon={AttachmentIcon} aria-hidden />
+                {' filname_01.jpg'}
               </Attachment.FileRow>
               <Button
                 text="Delete"
